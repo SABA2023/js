@@ -25,8 +25,10 @@ Ecwid.OnPageLoaded.add(function(page) {
     "BreadCrumbs.your_bag" : "My shopping cart",
     "Minicart.shopping_bag" : "Shopping Cart.",
     "ShoppingCartView.shopping_bag" : "My Shopping Cart,",
-    "EmptyShoppingCartPanel.empty" : "Your Shopping Cart is empty"
+    "EmptyShoppingCartPanel.empty" : "My Shopping Cart is empty"
   };
+   
+   alert('SABASG');
    
 });
 </script>
