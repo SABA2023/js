@@ -28,7 +28,9 @@ Ecwid.OnPageLoaded.add(function(page) {
     "EmptyShoppingCartPanel.empty" : "My Shopping Cart is empty"
   };
    
-   alert('SABASG');
+ 
+  console.log("Current page is of type: " + page.type);
+   
    
 });
 </script>
