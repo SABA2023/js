@@ -24,6 +24,7 @@ Ecwid.OnPageLoaded.add(function(page){
    	}, 50);
 });
 
+document.getElementsByClassName('product-details-module product-details__subtitle').innerHTML = "PROMO" ; 
 
 
 </script>
