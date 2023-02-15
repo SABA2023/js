@@ -2,6 +2,9 @@
  
 
 Ecwid.OnPageLoaded.add(function(page){
+ 
+    document.getElementsByClassName('product-details-module product-details__subtitle').innerHTML = "~" ; 
+
    	setTimeout(function hidePrice() {
    		$(".ecwid-productBrowser-price").each(function(idx, el){
            if ($(el).text() == Ecwid.formatCurrency(0)) {
@@ -22,9 +25,9 @@ Ecwid.OnPageLoaded.add(function(page){
             }
      	});
    	}, 50);
+
 });
 
-document.getElementsByClassName('product-details-module product-details__subtitle').innerHTML = "PROMO" ; 
 
 
 </script>
