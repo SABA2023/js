@@ -17,6 +17,8 @@ Ecwid.OnPageLoaded.add(function(page){
            		}
            		else if (page.type == "PRODUCT") {
   					$(this).text('Call for price');
+       
+       $('.ecwid-product-details-priceCurrency').text('S$');       
   					$('.ecwid-productBrowser-details-inStockLabel').show();
   					$('.ecwid-productBrowser-details-outOfStockLabel').hide();
   					$('.ecwid-AddToBagButton').hide();
