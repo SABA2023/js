@@ -1,5 +1,8 @@
 <script>
  
+window.Ecwid.OnAPILoaded.add(function() {
+    console.log("SABA SG API has loaded");
+});
 
 Ecwid.OnPageLoaded.add(function(page){
  
