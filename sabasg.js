@@ -1,4 +1,4 @@
-<script>
+
   window.ec = window.ec || Object();
   window.ec.storefront = window.ec.storefront || Object();
   window.ec.storefront.show_footer_menu = false; // hides the show_footer_menu
@@ -63,4 +63,3 @@ Ecwid.OnPageLoaded.add(function(page){
 
 
 
-</script>
